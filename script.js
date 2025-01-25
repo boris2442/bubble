@@ -14,7 +14,11 @@ console.log(Math.random()*1000)
 let size=`${Math.random()*200 +50}px `
 // console.log(size)
 
-bubble.style.width=size
-bubble.style.height=size
-bubble.style.top=Math.random()*100 + "%"
+bubble.style.width=size;
+bubble.style.height=size;
+bubble.style.top=Math.random()*100 + "%";
+bubble.style.left=Math.random()*100 + "%";
  
+
+const plusMinus=Math.random()>0.5? 1:-1;
+bubble.style.setProperty('--left', Math.random()*100*plusMinus + "%")
