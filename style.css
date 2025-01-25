@@ -21,11 +21,13 @@ h3{
     text-shadow: 0 0 10px #333;
 }
 .bubble{
-position: absolute;
-/* width: 100px;
-height: 100px; */
-pointer-events: none;
-border-radius: 50%;
+    position: absolute;
+    /* width: 100px;
+    height: 100px; */
+    pointer-events: none;
+    border-radius: 50%;
+    opacity: 0.7;
+
 animation: bubble 1s linear infinite;
 background-color:rgb(240, 240, 12);
 }
